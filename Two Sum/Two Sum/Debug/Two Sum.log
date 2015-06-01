@@ -1,0 +1,20 @@
+﻿Build started 6/1/2015 10:44:50 AM.
+     1>Project "C:\Users\TERRYWANG\Documents\GitHub\LeetCode\1.-Two-Sum\Two Sum\Two Sum\Two Sum.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\TERRYWANG\Documents\GitHub\LeetCode\1.-Two-Sum\Two Sum\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\Two Sum.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp "Two Sum.cpp"
+         Two Sum.cpp
+     1>c:\users\terrywang\documents\github\leetcode\1.-two-sum\two sum\two sum\solution.h(7): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>c:\users\terrywang\documents\github\leetcode\1.-two-sum\two sum\two sum\two sum.cpp(9): error C2082: redefinition of formal parameter 'array'
+     1>c:\users\terrywang\documents\github\leetcode\1.-two-sum\two sum\two sum\two sum.cpp(12): error C2512: 'solution' : no appropriate default constructor available
+         stdafx.cpp
+         Generating Code...
+     1>Done Building Project "C:\Users\TERRYWANG\Documents\GitHub\LeetCode\1.-Two-Sum\Two Sum\Two Sum\Two Sum.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.80
